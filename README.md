@@ -1,1 +1,2 @@
-"# Advanced_DSA" 
+# Advanced DSA
+This is a repository that contains the implementation of some of the most commonly used advanced data structures and algorithms. All the algorithms are performed using the Java programming language.
