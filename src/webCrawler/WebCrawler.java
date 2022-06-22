@@ -28,7 +28,7 @@ public class WebCrawler {
             String v = queue.remove();
             String rawHTML = readURL(v);
 
-            String urlPattern = "(www|http:|https:)+[^\s]+[\\w]";
+            String urlPattern = "";
             Pattern pattern = Pattern.compile(urlPattern);
             Matcher matcher = pattern.matcher(rawHTML);
 
